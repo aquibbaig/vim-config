@@ -23,7 +23,7 @@ return {
 		},
 		config = function()
 			require("oil").setup({
-				default_file_explorer = true,
+				default_file_explorer = false,
 				delete_to_trash = true,
 				skip_confirms_for_simple_edits = true,
 				view_options = {
