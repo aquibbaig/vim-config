@@ -3,7 +3,7 @@ return {
 	"williamboman/mason-lspconfig.nvim",
 	lazy = false,
 	config = function()
-		local servers = {"lua_ls"}
+		local servers = {"lua_ls", "prettier"}
 
 		require("mason").setup()
 		require("mason-lspconfig").setup({
