@@ -1,5 +1,5 @@
 return {
-  'echasnovski/mini.pairs',
+  'echasnovski/mini.nvim',
   version = false,
   event = 'InsertEnter', -- Loads when you start typing
   config = function()
