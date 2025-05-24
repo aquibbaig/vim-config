@@ -48,4 +48,8 @@ vim.keymap.set("n", "<C-S-l>", "<cmd>Treewalker SwapRight<cr>", {
 	desc = "Treewalker: Swap with next sibling (Right)",
 })
 
+-- neotree
 vim.keymap.set("n", "<C-b>", "<Cmd>Neotree toggle<CR>")
+
+-- outline
+vim.keymap.set("n", "<C-o>", "<Cmd>Outline<CR>")
